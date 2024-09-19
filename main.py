@@ -7,7 +7,7 @@ def q1b(nums: List[int]) -> bool:
     pass
 
 
-def q2(s: List,t: List) -> bool:
+def q2(s: str,t: str) -> bool:
     pass
 
 def q3() -> int:
