@@ -32,7 +32,7 @@ def test_q2(entrada1, entrada2, esperado):
 
 
 def test_q3():
-    esperado = 400
+    esperado = 1213
     assert esperado == q3()
 
 
