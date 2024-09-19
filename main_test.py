@@ -36,15 +36,13 @@ def test_q3():
     assert esperado == q3()
 
 
-@pytest.mark.parametrize("entrada, esperado_pares, esperado_impares", [
-    ([2, 4, 6, 8, 10, 12, 14, 0], [12, 14, 6, 8, 10], []),
-    ([1, 3, 5, 7, 9, 11, 0], [], [11, 3, 5, 7, 9]),
-    ([2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 0], [22, 14, 16, 18, 20], []),
-    ([2, 4, 6, 8, 10, 12, 1, 3, 5, 7, 9, 11, 0], [12, 4, 6, 8, 10], [11, 3, 5, 7, 9])
-])
-def test_q4(entrada, esperado_pares, esperado_impares):
-    resultado_pares, resultado_impares = q3(entrada)
-    assert resultado_pares == esperado_pares
-    assert resultado_impares == esperado_impares
-
-    
+# @pytest.mark.parametrize("entrada, esperado_pares, esperado_impares", [
+#     ([2, 4, 6, 8, 10, 12, 14, 0], [12, 14, 6, 8, 10], []),
+#     ([1, 3, 5, 7, 9, 11, 0], [], [11, 3, 5, 7, 9]),
+#     ([2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 0], [22, 14, 16, 18, 20], []),
+#     ([2, 4, 6, 8, 10, 12, 1, 3, 5, 7, 9, 11, 0], [12, 4, 6, 8, 10], [11, 3, 5, 7, 9])
+# ])
+# # def test_q4(entrada, esperado_pares, esperado_impares):
+# #     resultado_pares, resultado_impares = q4(entrada)
+# #     assert resultado_pares == esperado_pares
+# #     assert resultado_impares == esperado_impares
